@@ -1,6 +1,6 @@
 # Instagram Clone Project
 
-![Instagram Feed](./images/GUI_1.png)
+![Instagram Feed](./images/login.png)
 
 ## Disclaimer
 This repo is just a display of a course project for EECS 485 Web Systems @ University of Michigan. I'm excluding the code to comply with academic integrity policies.
@@ -12,8 +12,8 @@ This repo is just a display of a course project for EECS 485 Web Systems @ Unive
 - **Testing**: Cypress
 - **Deployment**: AWS (EC2)
 
-![Instagram Login](./images/GUI_2.png)
-![Instagram Profile](./images/GUI_3.png)
+![Instagram Login](./images/profile.png)
+![Instagram Profile](./images/feed.png)
 
 ## Project Overview
 Instagram clone implementation featuring:
