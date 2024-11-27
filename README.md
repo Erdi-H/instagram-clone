@@ -12,9 +12,6 @@ This repo is just a display of a course project for EECS 485 Web Systems @ Unive
 - **Testing**: Cypress
 - **Deployment**: AWS (EC2)
 
-![Instagram Login](./images/profile.png)
-![Instagram Profile](./images/feed.png)
-
 ## Project Overview
 Instagram clone implementation featuring:
 - **Client-Side Dynamic Pages**: Dynamic DOM updates via JavaScript.  
@@ -24,6 +21,8 @@ Instagram clone implementation featuring:
 - **AJAX Calls**: Asynchronous data retrieval for real-time updates.
 - **User Authentication**: Secure login using session cookies or HTTP Basic Auth.
 - **Account Creation**: Users can sign up with a username and password, stored in a SQLite database.
+
+![Instagram Profile](./images/feed.png)
 
 ## System Architecture
 ### Client-Side Dynamic Pages
@@ -42,6 +41,8 @@ The backend provides RESTful endpoints for key operations:
 The project implements two main authentication methods:
 - **Session Cookies**: A secure mechanism to maintain user sessions. It allows users to remain authenticated between actions without repeatedly entering credentials.
 - **HTTP Basic Authentication**: Utilized for direct API requests, requiring credentials to be included in the request headers. Unauthorized actions are blocked with appropriate error codes (403 for forbidden and 404 for non-existent resources).
+
+![Instagram Login](./images/profile.png)
 
 ## Code Tree
 
