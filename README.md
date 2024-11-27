@@ -7,9 +7,8 @@ This repo is just a display of a course project for EECS 485 Web Systems @ Unive
 
 ## Technologies Used
 - **Frontend**: React, JavaScript, HTML, CSS  
-- **Backend**: Python Flask, REST API  
-- **Data Processing**: SQLite 
-- **Architecture**: Client-side dynamic pages, asynchronous programming (AJAX)
+- **Backend**: Python Flask, REST API, SQLite
+- **Architecture**: Client-side dynamic pages
 - **Testing**: Cypress
 - **Deployment**: AWS (EC2)
 
@@ -17,13 +16,14 @@ This repo is just a display of a course project for EECS 485 Web Systems @ Unive
 ![Instagram Profile](./images/GUI_3.png)
 
 ## Project Overview
-Usable instagram clone implementation featuring:
+Instagram clone implementation featuring:
 - **Client-Side Dynamic Pages**: Dynamic DOM updates via JavaScript.  
 - **REST API Integration**: Backed by a Flask REST API.  
 - **Infinite Scroll**: Seamlessly load additional posts while scrolling.
 - **User Interaction**: Like, comment, and delete actions without reloading the page.
 - **AJAX Calls**: Asynchronous data retrieval for real-time updates.
 - **User Authentication**: Secure login using session cookies or HTTP Basic Auth.
+- **Account Creation**: Users can sign up with a username and password, stored in a SQLite database.
 
 ## System Architecture
 ### Client-Side Dynamic Pages
