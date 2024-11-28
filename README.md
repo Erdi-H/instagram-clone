@@ -7,7 +7,7 @@ This repo is just a display of a course project for EECS 485 Web Systems @ Unive
 
 ## Technologies Used
 - **Frontend**: React, JavaScript, HTML, CSS  
-- **Backend**: Python Flask, REST API, SQLite
+- **Backend**: Python Flask, REST API, SQLite 
 - **Architecture**: Client-side dynamic pages
 - **Testing**: Cypress
 - **Deployment**: AWS (EC2)
